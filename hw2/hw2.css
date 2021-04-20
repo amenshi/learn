@@ -1,0 +1,114 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products__card {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.products__card img {
+    width: 100%;
+    height: 350px;
+}
+
+.products__card__image {
+    position: relative;
+}
+
+.products__card .buttons {
+    display: flex;
+}
+
+.products__card__image .sale {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    border-radius: 15px;
+    text-align: center;
+    width: 50px;
+    font-weight: bold;
+    padding: 5px 5px;
+    width: 15%;
+    background-color: #f91155;
+    color: #fff;
+}
+
+.products__card .buttons .cart {
+    padding: 7px;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    width: 100px;
+    font-family: 'Orelega One', cursive;
+    background-color: #005bff;
+    color: #fff;
+}
+
+.products__card .buttons .dots {
+    padding: 7px;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    width: 15px;
+    font-weight: 700;
+    background-color: #eee;
+    color: #005bff;
+    margin-left: 10px;
+}
+
+.products__card .bestseller {
+    color: #fd937d;
+    margin-bottom: 4px;
+}
+
+.products__card .new {
+    color: #47c671;
+    margin-bottom: 4px;
+}
+
+.products__card .title {
+    display: block;
+    color: #001a34;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.products__card .title:hover {
+    color: #4989ff;
+}
+
+.products__card_price .new_price {
+    font-weight: 700;
+    font-size: 20px;
+    color: #f91155;
+    font-family: 'Orelega One', cursive;
+}
+
+.products__card_price .old_price {
+    color: #f91155;
+    text-decoration: line-through;
+    padding-top: 3px;
+}
+
+.products__card_price .old_price span {
+    color: #485b6d;
+    font-size: 15px;
+}
+
+.products__card_price s {
+    font-size: 15px;
+    color: #485b6d;
+}
+
+.products__card_price {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2px;
+}
