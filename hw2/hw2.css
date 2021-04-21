@@ -46,7 +46,6 @@
     display: block;
     text-align: center;
     width: 100px;
-    font-family: 'Orelega One', cursive;
     background-color: #005bff;
     color: #fff;
 }
@@ -88,7 +87,6 @@
     font-weight: 700;
     font-size: 20px;
     color: #f91155;
-    font-family: 'Orelega One', cursive;
 }
 
 .products__card_price .old_price {
