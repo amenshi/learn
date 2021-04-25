@@ -1,0 +1,95 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    float: left;
+}
+
+li a {
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #a7bfc3;
+    background: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    margin: 50px 0 10px;
+    font-weight: 400;
+}
+
+h1:hover {
+    color: #a7bfc3;
+}
+
+p {
+    text-align: center;
+    margin: 0 0 50px;
+    color: #afafaf;
+    font-size: 30px;
+}
+
+.resto {
+    position: relative;
+    text-align: center;
+    margin: 10px;
+}
+
+#main_image {
+    display: flex;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.other {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #21383e;
+    opacity: 0.8;
+    padding: 15px 15px;
+    color: #ffffff;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+}
+
+.other .resto .name {
+    font-size: 30px;
+}
+
+.name:hover {
+    color: #21383e;
+    background-color: #ffffff;
+}
+
+.other_img {
+    height: 500px;
+    width: 400px;
+}
